@@ -1,0 +1,5 @@
+# Python依赖 - 使用 faster-whisper (CPU优化版本)
+faster-whisper>=1.0.0
+
+# faster-whisper 比原版 whisper 更快，内存占用更少
+# 无需单独安装 PyTorch

@@ -1,0 +1,32 @@
+{
+  "name": "subtitle-editor",
+  "version": "1.0.0",
+  "description": "简易字幕编辑器 - 支持Whisper AI音频翻译",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "transcribe": "node scripts/transcribe.js"
+  },
+  "keywords": [
+    "subtitle",
+    "editor",
+    "whisper",
+    "transcription",
+    "audio"
+  ],
+  "author": "YiJiu-Li",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "cors": "^2.8.5",
+    "openai-whisper": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

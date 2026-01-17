@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Uploads and outputs
+uploads/
+output/
+
+# Whisper models (too large for git)
+whisper-models/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
